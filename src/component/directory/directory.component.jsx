@@ -29,7 +29,7 @@ const Directory = ({categories}) => {
                           <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">
                             {item.model}
                           </h4>
-                          <p class=""> Price {item.title}</p>
+                          <p class=""> {item.title}</p>
                           {/* <p className="text-blue-500">{item.size}</p>
                           <p className="text-blue-500">{item.detail}</p> */}
                           <Link to='/shop'>

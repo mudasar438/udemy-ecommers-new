@@ -27,7 +27,7 @@ function App() {
           {/* <Route path="/navigation" element={<Navigation />} /> */}
 
           <Route path="/home" element={<Protected Component = {Home}/>} />
-          <Route path="/shop" element={<Protected Component = {Shop}/>} />
+          <Route path="/shop/*" element={<Protected Component = {Shop}/>} />
         
           <Route path="/checkout" element={<Protected Component = {Checkout}/>} />
        
